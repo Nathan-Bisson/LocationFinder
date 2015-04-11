@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="handheldfriendly" content="true" />
+<meta name="mobileoptimized" content="240" />
+<meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Webapp</title>
+</head>
+
+<body>
+	<!--<header class="apptitle">
+    	<h1>Location Checkin</h1>
+	</header>-->
+	
+	<nav class="tabs">
+		<ul>
+			<li class="tab">
+    			<a href="#home" data-role="link" id="homeTab" class="activetab logo"><img src="img/home.svg"/></a>
+    		</li>
+    		<li class="tab">
+    			<a href="#map" data-role="link" id="mapTab" class><img src="img/map_pin_stroke.svg"/></a>
+    		</li>
+           <li class="tab">
+    			<a href="#past" data-role="link" id="pastTab" class><img src="img/rss.svg"/></a>
+    		</li> 
+		</ul>
+	</nav>
+
+	<section data-role="page" id="home" class="active">
+    	<h1>NSA Location Tracker</h1>
+       <p>This is the home screen!</p>
+        	<div id="description">
+        		<p>The best way to find where you are, when you you want! Not only will you know where you cuurently are, but you can also check all your previous locations. Data will be stored for your benefit, as well as the governments!</p>
+        	</div> 
+        
+    </section>
+    <section data-role="page" id="map">
+    </section>
+    <section data-role="page" id="past">
+    	<h1>Past Locations Log</h1>
+    	<p>NSA Data Role</p>
+        <ul id="storageList">
+        </ul>
+    </section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
